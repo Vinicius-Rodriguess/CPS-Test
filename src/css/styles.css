@@ -5,6 +5,11 @@ body {
     background-color: #f2f2f2;
 }
 
+.geral {
+    background: linear-gradient(300deg, #3498db, #e74c3c, blue);
+    height: 100vh;
+}
+
 .container {
     position: absolute;
     top: 50%;
@@ -19,7 +24,7 @@ body {
 }
 
 .div-h1 {
-    color: #3498db;
+    color: #fafafa;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -49,6 +54,9 @@ body {
     background-color: #2980b9;
 }
 
+.div-btn button:active {
+border: black 1px solid;}
+
 .tempoRestante {
     font-size: 24px;
     font-weight: bold;
@@ -74,6 +82,7 @@ body {
 
 .divCliqueEmMim:active {
     background-color: #eebdb8;
+    border: 2px black solid;
 }
 
 .div-content-result {
@@ -89,6 +98,7 @@ body {
 
 .p{
     color: black;
+    font-size: 1.3em;
 }
 
 .div-content-tempo{
@@ -96,7 +106,7 @@ body {
 }
 
 .tempoRestante{
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bold;
     -webkit-text-stroke: 1px #fcf4f4;
 }
@@ -111,7 +121,17 @@ body {
     transition: background-color 0.3s;
 }
 
-.btnComecar:hover {
-    background-color: darkgreen;
+.btnComecar:hover{
+    background-color: #17611d;
+}
+
+.btnComecar:active{
+    border: solid 1px black;
+}
+
+.div-h1 p {
+    color: white;
+    font-style: italic;
+    font-size: 15px;
 }
     
