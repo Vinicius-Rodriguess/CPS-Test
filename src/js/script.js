@@ -13,6 +13,7 @@ document.addEventListener('click', e => {
     
     if(el.classList.contains('btnComecar')){
         if(tempo <= 0) return;
+        if(jogoEmAndamento === true) return;
         contagem();
     };
     
